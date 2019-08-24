@@ -1,0 +1,15 @@
+<script src="collection.js"></script>
+<script>
+    const list = [1,2,3,4,5];
+    const collection = new collections(list);
+
+    // console.log(collection.all());
+    // console.log(collection.avg());
+    // console.log(collection.chunk(2));
+
+    // console.log(new collections([{a:1}, {a:2}, {a:3}]).all(x => x.a));
+    // console.log(new collections([{a:1}, {a:2}, {a:3}]).avg(m => m.a));
+    // console.log(new collections([{a:1}, {a:2}, {a:3}]).chunk(2));
+
+    console.log(new collections([[1,2,3,[4,5]],[6,7,8,9]]).collapse());
+</script>
